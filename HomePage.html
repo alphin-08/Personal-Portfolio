@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphin's Portfolio</title>
+    <link href="HomePage.css" rel="stylesheet">
+    <link href="mediaQueries.css" rel="mediaQueries">
+    <script src="HomePage.js" defer></script>
+    
+</head>
+<body>
+    
+    <!--Navigation Bar-->
+    <nav> 
+        <div class = "nav-items">
+            <a href="#aboutSection" id = "about">ABOUT</a>
+            <a href="#experienceSection" id = "experience">EXPERIENCE</a>
+            <a href="#projectSection" id = "projects">PROJECTS</a>
+            <a href="#skillSection" id = "skills">TECHINCAL SKILLS</a>
+            <a href="#contactSection" id = "contact">CONTACT</a>
+        </div>
+    </nav>
+
+    <!--Front Page Title-->
+    <div class = "title" id= "titleID">
+        <h1 class = "topTitle"> Welcome To Alphin's</h1>
+        <h1 class = "bottomTitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio </h1>
+    </div>
+
+
+    <!--Home Page 3D Image-->
+    <div class="pre-container">
+        <pre>
+        <img src="imgs/vsCodeImg.png" alt="3D Image" class="image-3d">
+        </pre>
+    </div>
+
+    <!--3 Home Page Buttons-->
+    <a href="/imgs/Updated Resume.pdf" download class ="downloadButton">Dowloand CV</a>
+
+    <div id = "social">   
+        <img src="./imgs/linkedin.png" alt="linkedin"
+        class = "social1" onclick= "location.href = 'https://linkedin.com/in/alphin-shajan'" width="45" height="45">
+
+        <img src="./imgs/github.jpg" alt="github" class="social2"
+            onclick="location.href = 'https://github.com/alphin-08'" width="90" height="90">
+    </div>
+
+    <!--Background Particles-->
+    <div class="particles">
+        <div class="dots">
+            <span style="--i:1;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:9;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:16;"></span>
+        </div>
+    </div>
+
+    <!--About Me Section-->
+    <section id=  "aboutSection">
+        <h1>About Me</h1>
+        <div class="aboutMe">
+            <div class="about-col-1"> 
+                <p class = "aboutmeText"> Hello, my name is Alphin Shajan, and I am currently a junior at Temple University, pursuing a major in Computer Science<br> My personal interest in this industry currently are web Development and AI <br> I want learn and grow in this industry to enhance future websites and improve human to computer interactions
+                </p>
+            </div>
+            
+            <div class="about-col-2">
+                <img src="/imgs/temple-logo.webp" class="temple-logo" width="200px" height="200px">
+                <img src="/imgs/graducationCap-logo.png" class="aboutSectionImg" >
+            
+
+                <div class="col-2-container">
+                    <div class = "captions">
+                    <p>Freshmen Year</p>
+                    <p>Sophomore Year</p>
+                    <p>Junior Year</p>
+                    <p>Graduation</p>
+                </div>
+
+                <div class="dates">
+                    <p>August 2022</p>
+                    <p>May 2026</p>
+                </div>
+
+            <div class = "skill"> 
+                <span class = "bar"><span class = "html"></span></span>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+<!--ExperienceSection-->
+<section id = "experienceSection">
+     <h1 class = "experienceTitle">Experience</h1>
+        <div class = "experienceContainer">
+
+            <div class = "experienceSub left"> 
+                <img src="/imgs/owl-logo.png" class = "experienceImg" style="left:  630px;">
+                <h2 class = "TU">Temple's IT consultant</h2>
+                <small>October 2024 - persent</small>
+                <p style="margin-right: 30%;">Learned Skills:<br>-Trouble Shooting<br> -</p>
+                <!-- <p class = "experienceText"> Learned to take customer feedback and help improve temples IT infastructure</p> -->
+            </div>
+
+            <div class="experienceSub right">
+                <img src="/imgs/owl-logo.png" class = "experienceImg" style="left: -260px;">
+                <h2 class = "TU">Temple's HCI Lab</h2>
+                <small>September 2024 - persent</small>
+                <p style="margin-right: 30%;">Learned Skills:<br>-Researching<br>-</p>
+                <!-- <p class= experienceText style="margin-right: 30%;">Learned to research</p> -->
+            </div>
+       
+            <div class="experienceSub left">
+                <img src="/imgs/owl-logo.png" class = "experienceImg" style="left: 630px;" >
+                <h2 class = "TU">Temple's Hackathon</h2>
+                <small>October 2024</small>
+                <p style="margin-right: 30%;">Learned Skills:<br> -Teamwork<br> -Time Management<br></p>
+                <!-- <p class=experienceText style="margin-right: 30%;">Created a project where </p> -->
+            </div>
+        
+            <div class="experienceSub right">
+                <img src="/imgs/Screenshot 2024-06-21 110936.png" class = "experienceImg" style="left: -260px;">
+                <h2 class = "EL">Estee Lauder</h2>
+                <small>June 2021 - September 2023</small>
+                <p style="margin-right: 30%;">Learned Skills:<br> -Managing multiple tasks simultaneously<br> -Working in a fast-paced environment <br> -Adpating to changing priorities</p>
+                <!-- <p class = "experienceText" style="margin-right: 30%;">-Collaborated with team members in a fast-paced assembly line environment within a dedicated manufacturing facility
+                called Nortech, meeting production goals and deadlines<br>
+                -Conducted visual inspections to ensure product quality and consistency. Identified and reported
+                packaging defects which led to 4.15% decrease in operating expenses<br>
+                -Updated inventory transported pallets and boxes, and notified supervisors when supplies needed to be
+                replenished</p> -->
+            </div>
+                
+            <div class="experienceSub left">
+                <img src="/imgs/DD-logo.jpg" class = "experienceImg" style="left: 630px;">
+                <h2 class = "DD">Dunkin Donuts</h2>
+                <small>June 2020 - September 2020</small>
+                <p style="margin-right: 30%;">Learned Skills:<br> -Communication<br> -Customer Priority<br> -Attention to detail</p>
+                <!-- <p class = "experienceText" style="margin-right: 30%;">- Worked effectively as part of a diverse team, communicating and coordinating with coworkers to ensure smooth operations<br>
+                -Organized and restocked supplies to support operations and team productivity<br>
+                -Handled transactions accurately and efficiently, including operating the cash register and handling cash
+                transactions</p> -->
+            </div>
+        </div>
+       
+</section>
+
+<!--ProjectSection-->
+<section id = "projectSection"> 
+        <p class = "text-1">Browse My Recent</p>
+        <h1 class = "projectTitle">Projects</h1>
+        <div class = "projectContainer">
+            <div class="projectSub-1"> 
+
+                <h2 class="projectOne"> Currency Converter</h2>
+                <div class="projectImg">
+                    <img src = "imgs/currency-converter.png" alt = "currenyConverter" class = "subProjectImg" width="150" height="150">
+                </div>
+                <div class = "projectBtns"> 
+                    <button class = "projectOneBtn" 
+                    onclick = "location.href = 'https://github.com/alphin-08/Currency-Explorer'">Github</button>
+
+                    <button class = "projectOneBtn-2"
+                    onclick = "location.href = 'https://github'">Live Demo</button>
+                </div> 
+            </div>
+
+            <!--Second Project-->
+            <div class = projectSub-2>
+
+                <h2 class="projectTwo"> Personal Portfolio</h2>
+                <div class="projectImg2">
+                    <img src="imgs/user_interface_cyan_ui-15-512.webp" alt="personalPortfolio" class="subProjectImg-2" width="150" height="150">
+                </div>
+                <div class="projectBtns-2">
+                    <button class="projectTwoBtn" onclick="location.href = 'https://github.com'">Github</button>
+
+                    <button class="projectTwoBtn-2" onclick="location.href = 'https://github'">Live Demo</button>
+                </div>
+            </div>
+
+            <!--Third Project-->
+            <div class=projectSub-3>
+                <h2 class="projectThree"> Grade Calculator</h2>
+                <div class="projectImg3">
+                    <img src="imgs/211607.png" alt="gradeCalculator" class="subProjectImg-3" width="150" height="150">
+                </div>
+                <div class="projectBtns-3">
+                    <button class="projectThreeBtn" onclick="location.href = 'https://github.com/alphin-08/GradeCalculator'">Github</button>
+
+                    <button class="projectThreeBtn-2" onclick="location.href = 'https://github'">Live Demo</button>
+                </div>
+            </div>
+        </div> 
+</section>
+
+<!--SkillSection-->
+<section id="skillSection">
+<h1 class="skillText"> Techincal Skills </h1>
+    <div class = "skillContainer"> 
+        <div class = skills> 
+            <div class = "skillLang">
+                <h1 >Languages:</h1>
+                <!-- <div class="skillLogo"> -->
+                    <img src="./imgs/Python-logo.png" class = "skillImg" title="Python">
+                    <img src="./imgs/C logo.png" class="skillImg" title="C">
+                    <img src="./imgs/Java logo.png" class="skillImg" title="Java">
+                    <img src="./imgs/HTML-logo.png" class="skillImg" title="HTML">
+                    <img src="./imgs/CSS logo.png" class="skillImg" title="CSS">
+                    <img src="./imgs/JavaScript-logo.png" class="skillImg" title="Javascript">
+                <!-- </div> -->
+            </div>
+
+            <div class = "skillFrame">
+            <h1>Frame Works:</h1>
+            <img src="./imgs/nodeJS-logo.png" class="skillImg" title="nodeJS">
+            
+            <img src="./imgs/React-logo.png" class="skillImg" title="react">
+            <img src="./imgs/ExpressJS-logo.png" class="skillImg" title="expressJS">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--ContactSection-->
+<section id="contactSection">
+        <div class = contactText>
+            <p>Get in Touch</p>
+            <h1> Contact Me </h1>
+        </div>
+        <div class= "emailBox">
+            <div class = "email-info">
+                <img src="/imgs/email.jpg" 
+                alt = "email" 
+                class="social-icon" 
+                width="40px" 
+                height="40px">
+                <p><a href="mailto:alphinshajan2004@gmail.com">example@gmail.com </a></p>
+            </div>
+
+            <div class="email-info">
+                <img src="/imgs/linkdln3-logo.png" 
+                alt="linkedln" 
+                class="social-icon linkedin-logo" 
+                width="30px"
+                height="30px">
+                <p><a href='https://linkedin.com/in/alphin-shajan'>Linkedln </a></p>
+            </div>
+        </div>
+</section>
+
+
+</body>
+</html>
