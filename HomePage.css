@@ -12,7 +12,7 @@ html{
 nav{
     background-color: transparent;
     padding: 2%;
-    height: 15vh;
+    height: 5vh;
 }
 
 .nav-items{
@@ -32,31 +32,86 @@ nav{
     background-color: gray;
 }
 
-/* Welcome Title */
-#titleID{
-background: linear-gradient(to right, gray, white, gray);
-    -webkit-background-clip: text;
+/*HomePage Particles*/
+.particles {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
 }
 
-.title{
+.dots {
+    display: flex;
+    /* pointer-events: none; */
+}
+
+.dots span {
+    width: 5px;
+    height: 5px;
+    background: white;
+    margin: 0 75px;
+    border-radius: 100;
+    box-shadow: 0 0 0 10px black, 0 0 50px white,
+        0 0 100px green;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(120s/var(--i));
+}
+
+.dots span:nth-child(even) {
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px white, 0 0 50px yellow,
+        0 0 100px yellow;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(.5);
+    }
+}
+
+/*Front Page*/
+.mainContainer{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.leftContainer, .rightContainer{
+    flex: 1;
+    height: 60vh;
+}
+
+/*LEFT SIDE OF MAIN*/
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    /* Welcome Title */
+.title {
+    background: linear-gradient(to right, gray, white, gray);
+        -webkit-background-clip: text;
     color: transparent;
-    position: absolute;
-        left: 60px;
-        top:200px;
-    font-size:40px;
+    font-size: 40px;
 }
 
-.topTitle{
-    color:white;
-    width:100%;
+.topTitle {
+    color: white;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation: 
+    animation:
         typing 3s steps(19) 1s forwards,
-        cursor .4s step-end infinite alternate;   
+        cursor .4s step-end infinite alternate;
 }
 
-.bottomTitle{
+.bottomTitle {
     color: white;
     width: 100%;
     white-space: nowrap;
@@ -73,12 +128,74 @@ background: linear-gradient(to right, gray, white, gray);
 }
 
 @keyframes typing {
-    from {width: 0;}
-    to {width:100%;}
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
-/*3D IMAGE*/
+    /*Home Page Buttons*/
+.downloadButton {
+    background-color: white;
+    color: black;
+    padding: 1%;
+    border-radius: 1rem;
+    text-decoration: none;
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.social {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.social1 {
+    width: 45px;
+    height: 45px;
+}
+
+.social2 {
+    width: 60px;
+    height: 60px;
+}
+
+.downloadButton:hover {
+    background-color: gray;
+
+}
+
+.social1:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.social2:hover {
+    width: 95px;
+    height: 95px;
+}
+
+/*RIGHT SIDE OF MAIN*/
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    /*3D IMAGE*/
 pre {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
     padding: 1rem;
     border-radius: 1rem;
 
@@ -86,74 +203,52 @@ pre {
     max-height: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
-    position: absolute;
-        left: 900px;
-        top: 400px;
-
     transform-style: preserve-3d;
     transform: perspective(3000px) rotateY(var(--rotateX)) rotateX(var(--rotateY));
 }
 
-/*Home Page Buttons*/
-.downloadButton{
-    background-color: white;
-    color: black;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    position: relative;
-        left: 330px;
-        top:380px;
-    width: 100px;
-    height: 40px;
-    font-weight: bold;
-    z-index: 2;
-}
-
-.social1{
-    position: relative;
-        left: 300px;
-        top:400px;
-}
-
-.social2{
-position: relative;
-    left:360px;
-    top:420px
-}
-
-.downloadButton:hover{
-    
-    background-color: gray;
-
-}
-
-.social1:hover{
-    width: 50px;
-    height:50px;
-}
-.social2:hover{
-    width: 95px;
-    height: 95px;
-}
 
 
 
 /*About ME Section*/
+
+.mainContainer2{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+}
+
+.leftContainer2,
+.rightContainer2 {
+    flex: 1;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContainer2{
+    display: flex;
+    flex-direction: column;
+}
+
 #aboutSection{
     color: white;
     font-size: 30px;
     margin-left: 3%;
 }
 
-.aboutMe{
+.aboutMe {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-wrap: none;
 }
 
-.about-col-1 {
-    flex-basis: 40%;
+.aboutmeTitle {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .aboutmeText {
@@ -164,51 +259,36 @@ position: relative;
     padding: 20px;
 }
 
-.about-col-2{
-    display: flex;
-    justify-content: space-between;
-    flex-basis: 35%;
-}
-
 .captions{
     display: flex;
-    gap: 37px;
+    gap: 40px;
     font-size: 18px;
-    position: absolute;
-    top: 1660px;
 }
 .dates{
     display: flex;
-    gap: 335px;
+    gap: 23rem;
     font-size: 18px;
-    position: absolute;
-    top: 1550px;
+    /* margin-top: 11%; */
 }
 
 
 .aboutSectionImg{
     width: 60px;
     height: 60px;
-    position: absolute;
-    top: 1610px;
-    left: 1730px;
     z-index: 2;
 }
 
 .temple-logo{
-    position: absolute;
-        top: 1400px;
-        left: 58%;
+    width:200px;
+    height:200px;
+    width: 20%;
 }
 
 .skill{
-    position: absolute;
-    left: 1245px;
-    top: 1550px;
-    width: 530px;
-    margin: 60px auto;
+    width: 56%;
+    /* margin: 60px auto; */
     color: white;
-    padding: 20px;
+    padding: 3%;
     box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
 }
 .bar{
@@ -236,6 +316,9 @@ position: relative;
     width: 67%;
     animation: html 3%;
 }
+
+
+
 
 /*Experience Section*/
 #experienceSection {
@@ -315,51 +398,7 @@ p{
     margin-bottom: 10px;
 }
 
-/*HomePage Particles*/
-.particles{
-    position: absolute;
-        z-index: 1;
-    position: relative;
-    width:100%;
-    height:90vh;
-    overflow: hidden;
-    pointer-events: none;
-}
-.dots{
-    position: relative;
-    display: flex;
-}
 
-.dots span{
-    position: relative;
-    width:5px;
-    height:5px;
-    background: white;
-    margin: 0 75px;
-    border-radius: 100;
-    box-shadow: 0 0 0 10px black, 0 0 50px white,
-    0 0 100px green;
-    animation: animate 15s linear infinite;
-    animation-duration:calc(120s/var(--i));
-
-}
-
-.dots span:nth-child(even){
-    background: white;
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px white, 0 0 50px yellow,
-            0 0 100px yellow;
-}
-@keyframes animate {
-    0%
-    {
-        transform: translateY(100vh) scale(0);
-    }
-    100%
-    {
-        transform: translateY(-10vh) scale(.5);
-    }
-}
 
 /*Project Section*/
 #projectSection{

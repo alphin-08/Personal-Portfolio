@@ -22,51 +22,92 @@
         </div>
     </nav>
 
-    <!--Front Page Title-->
-    <div class = "title" id= "titleID">
-        <h1 class = "topTitle"> Welcome To Alphin's</h1>
-        <h1 class = "bottomTitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio </h1>
-    </div>
+    <!--Front Page-->
+    <section id = "frontPage">
+        <div class="particles">
+            <div class="dots">
+                <span style="--i:1;"></span>
+                <span style="--i:5;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:3;"></span>
+                <span style="--i:5;"></span>
+                <span style="--i:9;"></span>
+                <span style="--i:6;"></span>
+                <span style="--i:8;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:16;"></span>
+            </div>
 
+                <div class = "mainContainer"> 
+                    <div class = "leftContainer"> 
+                        <div class="title">
+                            <h1 class="topTitle"> Welcome To Alphin's</h1>
+                            <h1 class="bottomTitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio </h1>
+                        </div>
 
-    <!--Home Page 3D Image-->
-    <div class="pre-container">
-        <pre>
-        <img src="imgs/vsCodeImg.png" alt="3D Image" class="image-3d">
-        </pre>
-    </div>
+                        <a href="/imgs/Updated Resume.pdf" download class="downloadButton">Dowloand CV</a>
+                        <div class ="social">
+                            <img src="./imgs/linkedin.png" alt="linkedin" class="social1"
+                            onclick="location.href = 'https://linkedin.com/in/alphin-shajan'">
+                
+                            <img src="./imgs/github-logo.png" alt="github" class="social2" onclick="location.href = 'https://github.com/alphin-08'">
+                        </div>
+                    </div>
 
-    <!--3 Home Page Buttons-->
-    <a href="/imgs/Updated Resume.pdf" download class ="downloadButton">Dowloand CV</a>
-
-    <div id = "social">   
-        <img src="./imgs/linkedin.png" alt="linkedin"
-        class = "social1" onclick= "location.href = 'https://linkedin.com/in/alphin-shajan'" width="45" height="45">
-
-        <img src="./imgs/github.jpg" alt="github" class="social2"
-            onclick="location.href = 'https://github.com/alphin-08'" width="90" height="90">
-    </div>
-
-    <!--Background Particles-->
-    <div class="particles">
-        <div class="dots">
-            <span style="--i:1;"></span>
-            <span style="--i:5;"></span>
-            <span style="--i:10;"></span>
-            <span style="--i:13;"></span>
-            <span style="--i:3;"></span>
-            <span style="--i:5;"></span>
-            <span style="--i:9;"></span>
-            <span style="--i:6;"></span>
-            <span style="--i:8;"></span>
-            <span style="--i:11;"></span>
-            <span style="--i:12;"></span>
-            <span style="--i:16;"></span>
+                    <div class = "rightContainer">
+                        <div class="pre-container">
+                            <pre>
+                                <img src="imgs/vsCodeImg.png" alt="3D Image">
+                            </pre>
+                        </div>
+                    </div>
+                </div>
         </div>
-    </div>
+    </section>
 
     <!--About Me Section-->
-    <section id=  "aboutSection">
+    <section id="aboutSection">
+        <div class = "mainContainer2"> 
+            <div class = "leftContainer2">
+                <h1 class = "aboutmeTitle">About Me</h1>
+                <p class= "aboutmeText"> Hello, my name is Alphin Shajan, and I am currently a junior at Temple University, pursuing a
+                    major in Computer Science<br> My personal interest in this industry currently are web Development and AI <br> I want
+                    learn and grow in this industry to enhance future websites and improve human to computer interactions
+                </p>
+            </div>
+
+            <div class = "rightContainer2">
+                <img src="/imgs/temple-logo.webp" class="temple-logo">
+
+                <div class="dates">
+                    <p>August 2022</p>
+                    <p>May 2026</p>
+                </div>
+
+                <div class="skill">
+                    <span class="bar"><span class="html"></span>
+                        <img src="/imgs/graducationCap-logo.png" class="aboutSectionImg">
+                    </span>
+                </div>
+
+                <div class="captions">
+                    <p>Freshmen Year</p>
+                    <p>Sophomore Year</p>
+                    <p>Junior Year</p>
+                    <p>Graduation</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!--OLD ABOUT ME SECTION-->
+    <!-- <section id=  "aboutSection">
         <h1>About Me</h1>
         <div class="aboutMe">
             <div class="about-col-1"> 
@@ -98,7 +139,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
 <!--ExperienceSection-->
 <section id = "experienceSection">
@@ -130,7 +171,7 @@
             </div>
         
             <div class="experienceSub right">
-                <img src="/imgs/Screenshot 2024-06-21 110936.png" class = "experienceImg" style="left: -260px;">
+                <img src="/imgs/esteeLauder.png" class = "experienceImg" style="left: -260px;">
                 <h2 class = "EL">Estee Lauder</h2>
                 <small>June 2021 - September 2023</small>
                 <p style="margin-right: 30%;">Learned Skills:<br> -Managing multiple tasks simultaneously<br> -Working in a fast-paced environment <br> -Adpating to changing priorities</p>
@@ -181,7 +222,7 @@
 
                 <h2 class="projectTwo"> Personal Portfolio</h2>
                 <div class="projectImg2">
-                    <img src="imgs/user_interface_cyan_ui-15-512.webp" alt="personalPortfolio" class="subProjectImg-2" width="150" height="150">
+                    <img src="imgs/portfolio.webp" alt="personalPortfolio" class="subProjectImg-2" width="150" height="150">
                 </div>
                 <div class="projectBtns-2">
                     <button class="projectTwoBtn" onclick="location.href = 'https://github.com'">Github</button>
@@ -194,7 +235,7 @@
             <div class=projectSub-3>
                 <h2 class="projectThree"> Grade Calculator</h2>
                 <div class="projectImg3">
-                    <img src="imgs/211607.png" alt="gradeCalculator" class="subProjectImg-3" width="150" height="150">
+                    <img src="imgs/Calculator.png" alt="gradeCalculator" class="subProjectImg-3" width="150" height="150">
                 </div>
                 <div class="projectBtns-3">
                     <button class="projectThreeBtn" onclick="location.href = 'https://github.com/alphin-08/GradeCalculator'">Github</button>
