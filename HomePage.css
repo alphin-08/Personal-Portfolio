@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
     box-sizing: border-box;
@@ -10,6 +11,8 @@ html{
 
 /*Navagation Bar*/
 nav{
+    width: 100%; /*new*/
+    overflow-x: hidden;
     background-color: transparent;
     padding: 2%;
     height: 5vh;
@@ -41,17 +44,18 @@ nav{
 
 .dots {
     display: flex;
-    /* pointer-events: none; */
 }
 
 .dots span {
-    width: 5px;
-    height: 5px;
+    width:0.3125rem;
+    height:0.3125rem;
     background: white;
-    margin: 0 75px;
-    border-radius: 100;
-    box-shadow: 0 0 0 10px black, 0 0 50px white,
-        0 0 100px green;
+    margin: 0 4.6875rem;
+    border-radius: 6.25rem;
+    box-shadow:
+            0 0 0 0.625rem black,
+            0 0 3.125rem white;
+            /* 0 0 6.25rem green; */
     animation: animate 15s linear infinite;
     animation-duration: calc(120s/var(--i));
 }
@@ -59,8 +63,10 @@ nav{
 .dots span:nth-child(even) {
     background: white;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px white, 0 0 50px yellow,
-        0 0 100px yellow;
+    box-shadow:
+            0 0 0 0.625rem white;
+            /* 0 0 3.125rem yellow,
+            0 0 6.25rem yellow; */
 }
 
 @keyframes animate {
@@ -316,10 +322,7 @@ pre {
 }
 
 
-
-
 /*Experience Section*/
-
 .mainContainer3{
     display: flex;
     width: 100%;

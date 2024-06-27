@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alphin's Portfolio</title>
     <link href="HomePage.css" rel="stylesheet">
-    <link href="mediaQueries.css" rel="mediaQueries">
+    <link href="mediaQueries.css" rel="stylesheet">
     <script src="HomePage.js" defer></script>
     
 </head>
@@ -263,6 +263,21 @@
             </div>
         </div>
     </section>
+
+    <!--Checking Width and Height of Website-->
+    <script>
+        // Get the dimensions of the viewport
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
+        console.log('Viewport Width:', viewportWidth);
+        console.log('Viewport Height:', viewportHeight);
+
+        // Get the dimensions of the entire document
+        const documentWidth = document.documentElement.scrollWidth;
+        const documentHeight = document.documentElement.scrollHeight;
+        console.log('Document Width:', documentWidth);
+        console.log('Document Height:', documentHeight);
+    </script>
 
 </body>
 </html>
