@@ -89,7 +89,7 @@
         .mainContainer2 {
             display: flex;
             flex-direction: column;
-            height: auto;
+            height: 70vh;
         }
         
         .leftContainer2,
@@ -147,28 +147,32 @@
 
 
             /*Experience Section Resizing*/
-
-            #experienceSection{
-                margin: 0%;
-                font-size: 1.25rem;
-            }
             .mainContainer3 {
-                margin-top: 50%;
                 display: flex;
                 width: 100%;
                 height: 80vh;
             }
 
+            .leftContainer3,.middleContainer3,.rightContainer3{
+                margin: 0%;
+                height: 70vh;
+            }
+
+            #experienceSection {
+                margin: 0%;
+                font-size: 1.25rem;
+                height: 80vh;
+            }
+
+            .experienceTitle{
+                font-size: 2rem;
+            }
+
             .experienceSubTitle {
-                width: 100%;
-                display: flex;
-                justify-content: flex-start;
                 font-size: 1rem;
             }
 
             .experienceSub {
-                /* box-sizing: border-box; */
-                /* padding: 2%; */
                 padding: 0%;
                 width: 30%;
                 background-color: transparent;
@@ -197,5 +201,70 @@
                 top: 18%;
                 width: 3%;
             }
-}   
+    
+    /*Project Section*/
+        .projectHeading {
+            width: 100%;
+            height: 10vh;
+            text-align: center;
+        }
+
+        .projectHeading p{
+            font-size: 1rem;
+        }
+        .projectHeading h1{
+            font-size: 2rem;
+        }
+
+        .subMain{
+            height: 40vh;
+            gap: 5%;
+            width: 100%;
+        }
+
+        .subMain .leftContainer4, .subMain .middleContainer4, .subMain .rightContainer4{
+            width: 33%;
+            height: 30vh;
+        }
+
+        
+
+        .leftContainer4 .projectOne, .middleContainer4 .projectTwo, .rightContainer4 .projectThree{
+            font-size: 1rem;
+        }
+
+                .leftContainer4 .projectImg .subProjectImg,
+                .middleContainer4 .projectImg2 .subProjectImg-2,
+                .rightContainer4 .projectImg3 .subProjectImg-3{
+                    width: 4rem;
+                    height: 4rem;
+                }
+
+
+        .projectBtns, .projectBtns-2, .projectBtns-3{
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .projectOneBtn, .projectTwoBtn, .projectThreeBtn, .projectOneBtn-2, .projectTwoBtn-2,.projectThreeBtn-2{
+            height: 2rem;
+            width: 6rem;
+        }
+
+        /*Techincal Skills*/
+        .mainContainer5{
+            display: flex;
+            justify-content: flex-start;
+            height: 60vh;
+            margin: 0%;
+        }
+
+        .skillSectionheading{
+            margin: 0%;
+        }
+        .skillSectionheading h1{
+            font-size: 1rem;
+        }
+}       
 
