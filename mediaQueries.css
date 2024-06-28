@@ -22,25 +22,40 @@
         border-radius: 1rem;
     }
 
-    .particles{
+    .particles {
         width: 100%;
         height: 35vh;
         display: hidden;
     }
 
+    .dots {
+        display: flex;
+    }
+
     .dots span {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 3rem;
+        height: 3rem;
         background: white;
         margin: 0 0.23435rem;
-        border-radius: 3.125rem;
+        border-radius: 50%;
         box-shadow:
             0 0 0 0.3125rem black,
             0 0 0.15625rem white;
-        animation: animate 15s linear infinite;
-        animation-duration: calc(240s/var(--i));
+        animation: animate 30s linear infinite;
+        animation-duration: calc(200s/var(--i));
+    }
+
+    @keyframes animate {
+    0% {
+        transform: translateY(100vh) scale(0);
         }
 
+    100% {
+        transform: translateY(-10vh) scale(.2);
+        }
+    }
+
+    
     .mainContainer{
         width: 100%;
         height:35vh;
@@ -87,7 +102,7 @@
 
     /*About me Section*/
     #aboutSection{
-        height: 70vh;
+        height: 55vh;
         font-size: 1.25rem;
         margin: 0%;
     }
@@ -95,7 +110,7 @@
     .mainContainer2 {
         display: flex;
         flex-direction: column;
-        height: 70vh;
+        height: 55vh;
     }
     
     .leftContainer2,
@@ -104,13 +119,11 @@
         width: 100%;
         padding: 1rem;
         text-align: center;
-        height: 60vh;
-        
+        height: auto;
     }
     
     .leftContainer2 {
-        order: 1;
-                
+        order: 1;        
     }
     
     .rightContainer2 {
@@ -152,18 +165,18 @@
     #experienceSection {
         margin: 0%;
         font-size: 1.25rem;
-        height: 80vh;
+        height: 65vh;
     }
 
     .mainContainer3 {
         display: flex;
         width: 100%;
-        height: 80vh;
+        height: 65vh;
     }
 
     .leftContainer3,.middleContainer3,.rightContainer3{
         margin: 0%;
-        height: 70vh;
+        height: auto;
     }
 
     .experienceTitle{
@@ -189,7 +202,7 @@
     }
     
     .experienceImg {
-        top: 30%;
+        top: 0%;
         border-radius: 50%;
         width: 40px;
         margin-top: 60%;
@@ -198,7 +211,7 @@
     .middleContainer3::after {
         content: "";
         position: absolute;
-        height: 50vh;
+        height: 40vh;
         left: 47%;
         top: 18%;
         width: 3%;
@@ -206,8 +219,9 @@
     
 /*Project Section*/
     #projectSection, .mainContainer4{
-        height: 50vh;
+        height: 45vh;
     }
+
     .projectHeading {
         width: 100%;
         height: 10vh;
@@ -222,17 +236,32 @@
     }
 
     .subMain{
-        height: 38vh;
+        height: auto;
         gap: 5%;
         width: 100%;
     }
 
-    .subMain .leftContainer4, .subMain .middleContainer4, .subMain .rightContainer4{
-        width: 33%;
-        height: 30vh;
+    .leftContainer4{
+        flex-basis: 25%;
+        border: 0.3125rem solid #A32036;
+        transition: all 1s;
     }
 
-        
+    .middleContainer4{
+        flex-basis: 25%;
+        border: 0.3125rem solid #040A2B;
+        transition: all 1s;
+    }
+
+    .rightContainer4{
+        flex-basis: 25%;
+        border: 0.3125rem solid #B87333;
+        transition: all 1s;
+    }
+
+    .subMain .leftContainer4, .subMain .middleContainer4, .subMain .rightContainer4{
+        height: 30vh;
+    }
 
     .leftContainer4 .projectOne, .middleContainer4 .projectTwo, .rightContainer4 .projectThree{
         font-size: 1rem;
@@ -254,20 +283,25 @@
 
     .projectOneBtn, .projectTwoBtn, .projectThreeBtn, .projectOneBtn-2, .projectTwoBtn-2,.projectThreeBtn-2{
         height: 2rem;
-        width: 6rem;
+        width: 5rem;
+        padding: 0rem;
+        border: 0rem;
+        border-radius: 1rem;
+        margin-top: 20%;
     }
 
 /*Techincal Skills*/
 
     #skillSection{
         margin: 0%;
+        height: 40vh;
     }
     .mainContainer5{
-        height: 60vh;
+        height: 50vh;
     }
 
     .skillSectionHeading, .leftContainer5, .rightContainer5{
-        height: 15vh;
+        height: 10vh;
     }
 
     .skillSectionHeading{
@@ -315,7 +349,7 @@
 
     .emailBox{
         width: 80%;
-        height: 30%;
+        height: 12vh;
     }
 
     .email-info{
@@ -327,15 +361,16 @@
     }
 
     .email-info p{
-        font-size: 15px;
+        font-size: 25px;
+        margin: 3%;
     }
     .social-icon{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2.75rem;
+        height: 3rem;
     }
     .social-icon2{
-        width: 1rem;
-        height: 1rem;
+        width:  2rem;
+        height: 2rem;
     }
 }       
 
