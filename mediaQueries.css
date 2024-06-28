@@ -86,254 +86,256 @@
     }
 
     /*About me Section*/
-        .mainContainer2 {
-            display: flex;
-            flex-direction: column;
-            height: 70vh;
-        }
-        
-        .leftContainer2,
-        .rightContainer2 {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 1rem;
-            text-align: center;
-            
-        }
-        
-        .leftContainer2 {
-            order: 1;
-                    
-        }
-        
-        .rightContainer2 {
-            order: 2;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        
-        #aboutSection {
-            font-size: 1.25rem;
-            margin: 0%;
-        }
-        
-        .aboutmeText {
-            font-size: 1rem;
-            padding: 0.75rem;
-            border: 0.2rem solid white;
-            border-radius: 1.5rem;
-        }
-        
-        .dates {
-            gap: 17rem;
-            font-size: 0.875rem;
-        }
+    #aboutSection{
+        height: 70vh;
+        font-size: 1.25rem;
+        margin: 0%;
+    }
 
-        .captions{
-            gap: 1.5rem;
-            font-size: 0.5rem;
-        }
+    .mainContainer2 {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    
+    .leftContainer2,
+    .rightContainer2 {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        height: 60vh;
         
-        .skill{
-            width: 85%;
-        }
-        .aboutSectionImg {
-            width: 2rem;
-            height: 2rem;
-        }
+    }
+    
+    .leftContainer2 {
+        order: 1;
+                
+    }
+    
+    .rightContainer2 {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        
+    .aboutmeText {
+        font-size: 1rem;
+        padding: 0.75rem;
+        border: 0.2rem solid white;
+        border-radius: 1.5rem;
+    }
+    
+    .dates {
+        gap: 17rem;
+        font-size: 0.875rem;
+    }
+
+    .captions{
+        gap: 1.5rem;
+        font-size: 0.5rem;
+    }
+    
+    .skill{
+        width: 85%;
+    }
+    .aboutSectionImg {
+        width: 2rem;
+        height: 2rem;
+    }
                 
 
 
-            /*Experience Section Resizing*/
-            .mainContainer3 {
-                display: flex;
-                width: 100%;
-                height: 80vh;
-            }
+/*Experience Section Resizing*/
+    #experienceSection {
+        margin: 0%;
+        font-size: 1.25rem;
+        height: 80vh;
+    }
 
-            .leftContainer3,.middleContainer3,.rightContainer3{
-                margin: 0%;
-                height: 70vh;
-            }
+    .mainContainer3 {
+        display: flex;
+        width: 100%;
+        height: 80vh;
+    }
 
-            #experienceSection {
-                margin: 0%;
-                font-size: 1.25rem;
-                height: 80vh;
-            }
+    .leftContainer3,.middleContainer3,.rightContainer3{
+        margin: 0%;
+        height: 70vh;
+    }
 
-            .experienceTitle{
-                font-size: 2rem;
-            }
+    .experienceTitle{
+        font-size: 2rem;
+    }
 
-            .experienceSubTitle {
-                font-size: 1rem;
-            }
+    .experienceSubTitle {
+        font-size: 1rem;
+    }
 
-            .experienceSub {
-                padding: 0%;
-                width: 30%;
-                background-color: transparent;
-            }
+    .experienceSub {
+        padding: 0%;
+        width: 30%;
+        background-color: transparent;
+    }
 
-            .TU,.DD,.EL{
-                font-size: 1.5rem;
-            }
+    .TU,.DD,.EL{
+        font-size: 1.5rem;
+    }
 
-            .experienceText{
-                font-size: .75rem;
-            }
-            
-            .experienceImg {
-                top: 30%;
-                border-radius: 50%;
-                width: 40px;
-                margin-top: 60%;
-            }
-
-            .middleContainer3::after {
-                content: "";
-                position: absolute;
-                height: 50vh;
-                left: 47%;
-                top: 18%;
-                width: 3%;
-            }
+    .experienceText{
+        font-size: .75rem;
+    }
     
-    /*Project Section*/
+    .experienceImg {
+        top: 30%;
+        border-radius: 50%;
+        width: 40px;
+        margin-top: 60%;
+    }
+
+    .middleContainer3::after {
+        content: "";
+        position: absolute;
+        height: 50vh;
+        left: 47%;
+        top: 18%;
+        width: 3%;
+    }
+    
+/*Project Section*/
     #projectSection, .mainContainer4{
         height: 50vh;
     }
-        .projectHeading {
-            width: 100%;
-            height: 10vh;
-            text-align: center;
-        }
+    .projectHeading {
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+    }
 
-        .projectHeading p{
-            font-size: 1rem;
-        }
-        .projectHeading h1{
-            font-size: 2rem;
-        }
+    .projectHeading p{
+        font-size: 1rem;
+    }
+    .projectHeading h1{
+        font-size: 2rem;
+    }
 
-        .subMain{
-            height: 38vh;
-            gap: 5%;
-            width: 100%;
-        }
+    .subMain{
+        height: 38vh;
+        gap: 5%;
+        width: 100%;
+    }
 
-        .subMain .leftContainer4, .subMain .middleContainer4, .subMain .rightContainer4{
-            width: 33%;
-            height: 30vh;
-        }
+    .subMain .leftContainer4, .subMain .middleContainer4, .subMain .rightContainer4{
+        width: 33%;
+        height: 30vh;
+    }
 
         
 
-        .leftContainer4 .projectOne, .middleContainer4 .projectTwo, .rightContainer4 .projectThree{
-            font-size: 1rem;
-        }
+    .leftContainer4 .projectOne, .middleContainer4 .projectTwo, .rightContainer4 .projectThree{
+        font-size: 1rem;
+    }
 
-                .leftContainer4 .projectImg .subProjectImg,
-                .middleContainer4 .projectImg2 .subProjectImg-2,
-                .rightContainer4 .projectImg3 .subProjectImg-3{
-                    width: 4rem;
-                    height: 4rem;
-                }
-
-
-        .projectBtns, .projectBtns-2, .projectBtns-3{
-            display: flex;
-            flex-direction: column;
-        }
+    .leftContainer4 .projectImg .subProjectImg,
+    .middleContainer4 .projectImg2 .subProjectImg-2,
+    .rightContainer4 .projectImg3 .subProjectImg-3{
+        width: 4rem;
+        height: 4rem;
+    }
 
 
-        .projectOneBtn, .projectTwoBtn, .projectThreeBtn, .projectOneBtn-2, .projectTwoBtn-2,.projectThreeBtn-2{
-            height: 2rem;
-            width: 6rem;
-        }
+    .projectBtns, .projectBtns-2, .projectBtns-3{
+        display: flex;
+        flex-direction: column;
+    }
 
-        /*Techincal Skills*/
 
-        #skillSection{
-            margin: 0%;
-        }
-        .mainContainer5{
-            height: 60vh;
-        }
+    .projectOneBtn, .projectTwoBtn, .projectThreeBtn, .projectOneBtn-2, .projectTwoBtn-2,.projectThreeBtn-2{
+        height: 2rem;
+        width: 6rem;
+    }
 
-        .skillSectionHeading, .leftContainer5, .rightContainer5{
-            height: 15vh;
-        }
+/*Techincal Skills*/
 
-        .skillSectionHeading{
-            font-size: 1.5rem;
-            margin: 0%;
-        }
+    #skillSection{
+        margin: 0%;
+    }
+    .mainContainer5{
+        height: 60vh;
+    }
 
-        .leftContainer5, .rightContainer5{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            font-size: 1rem;
-        }
+    .skillSectionHeading, .leftContainer5, .rightContainer5{
+        height: 15vh;
+    }
 
-        .skillImg{
-            width: 10%;
-            height: 40%;
-        }
+    .skillSectionHeading{
+        font-size: 1.5rem;
+        margin: 0%;
+    }
 
-        /*Contact Section*/
-        #contactSection{
-            margin: 0%;
-            padding: 0%;
-            height: 40vh;
-            width: 100%;
-        }
-        .mainContainer6{
-            margin: 0%;
-            padding: 0%;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            width: 100%;
-            height: 40vh;
-        }
-        .middleContainer6 {
-            width: 70%;
-            height: 40vh;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+    .leftContainer5, .rightContainer5{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 1rem;
+    }
 
-        .emailBox{
-            width: 80%;
-            height: 30%;
-        }
+    .skillImg{
+        width: 10%;
+        height: 40%;
+    }
 
-        .email-info{
-            display: flex;
-            flex-direction: column;
-            gap: 0%;
-            height: 10vh;
-            font-size: 10px;
-        }
+    /*Contact Section*/
+    #contactSection{
+        margin: 0%;
+        padding: 0%;
+        height: 40vh;
+        width: 100%;
+    }
+    .mainContainer6{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        height: 40vh;
+    }
+    .middleContainer6 {
+        width: 70%;
+        height: 40vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-        .email-info p{
-            font-size: 15px;
-        }
-        .social-icon{
-            width: 1.5rem;
-            height: 1.5rem;
-        }
-        .social-icon2{
-            width: 1rem;
-            height: 1rem;
-        }
+    .emailBox{
+        width: 80%;
+        height: 30%;
+    }
+
+    .email-info{
+        display: flex;
+        flex-direction: column;
+        gap: 0%;
+        height: 10vh;
+        font-size: 10px;
+    }
+
+    .email-info p{
+        font-size: 15px;
+    }
+    .social-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .social-icon2{
+        width: 1rem;
+        height: 1rem;
+    }
 }       
 

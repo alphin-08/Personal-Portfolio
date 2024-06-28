@@ -55,7 +55,6 @@ nav{
     box-shadow:
             0 0 0 0.625rem black,
             0 0 3.125rem white;
-            /* 0 0 6.25rem green; */
     animation: animate 15s linear infinite;
     animation-duration: calc(120s/var(--i));
 }
@@ -65,8 +64,6 @@ nav{
     border-radius: 50%;
     box-shadow:
             0 0 0 0.625rem white;
-            /* 0 0 3.125rem yellow,
-            0 0 6.25rem yellow; */
 }
 
 @keyframes animate {
@@ -218,6 +215,13 @@ pre {
 
 /*About ME Section*/
 
+#aboutSection {
+    color: white;
+    font-size: 1.875rem;
+    margin-left: 3%;
+    height: 55vh;
+}
+
 .mainContainer2{
     display: flex;
     width: 100%;
@@ -234,11 +238,6 @@ pre {
     align-items: center;
 }
 
-#aboutSection{
-    color: white;
-    font-size: 1.875rem;
-    margin-left: 3%;
-}
 
 .aboutmeTitle {
     width: 100%;
@@ -323,6 +322,13 @@ pre {
 
 
 /*Experience Section*/
+#experienceSection {
+    color: white;
+    font-size: 30px;
+    margin-left: 3%;
+    height: 80vh;
+}
+
 .mainContainer3{
     display: flex;
     width: 100%;
@@ -347,13 +353,6 @@ pre {
     justify-content: center;
     align-items: center;
     position: relative;
-}
-
-
-#experienceSection {
-    color: white;
-    font-size: 30px;
-    margin-left: 3%;
 }
 
 .experienceTitle{
