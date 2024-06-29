@@ -323,39 +323,45 @@ pre {
     color: white;
     font-size: 30px;
     margin-left: 3%;
-    height: 110vh;
+    height: 130vh;
 }
 
 .mainContainer3{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 110vh;
+    height: 130vh;
+}
+
+.expierenceHeading{
+    height: 25vh;
 }
 
 .exSubMain{
     display: flex;
     flex-direction: row;
+    height: 105vh;
 }
 
 .leftContainer3,
 .rightContainer3 {
     flex: 0 0 44%;
     height: auto;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.middleContainer3{
+.middleContainer3 {
     flex: 0 0 10%;
-    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: relative;
+    height: 80%;
 }
 
 .experienceTitle{
@@ -377,24 +383,19 @@ pre {
     background-color: transparent;
 }
 
-.experienceImg{
-    display: flex;
-    flex-direction: column;
+.experienceImg {
+    display: block;
     border-radius: 50%;
-    width:3.125rem;
-    top: 0%;
-    margin: 4.375rem 0;
+    width: 3.125rem;
     position: relative;
     z-index: 1;
 }
 
-.middleContainer3::after{
-    content:"";
+.middleContainer3::after {
+    content: "";
     position: absolute;
-    height: 70vh;
+    height: 100%;
     left: 47%;
-    top: 10%;
-    bottom: 0;
     width: 5%;
     background: white;
     z-index: 0;
