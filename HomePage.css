@@ -101,7 +101,7 @@ nav{
     background: linear-gradient(to right, gray, white, gray);
         -webkit-background-clip: text;
     color: transparent;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .topTitle {
@@ -147,14 +147,14 @@ nav{
     padding: 1%;
     border-radius: 1rem;
     text-decoration: none;
-    width: 100px;
-    height: 20px;
+    width: 6.25rem;
+    height: 1.25rem;
     font-weight: bold;
 }
 
 .social {
-    width: 500px;
-    height: 100px;
+    width: 31.25rem;
+    height: 6.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,13 +162,13 @@ nav{
 }
 
 .social1 {
-    width: 45px;
-    height: 45px;
+    width: 2.8125rem;
+    height: 2.8125rem;
 }
 
 .social2 {
-    width: 60px;
-    height: 60px;
+    width:3.75rem;
+    height: 3.75rem;
 }
 
 .downloadButton:hover {
@@ -177,13 +177,13 @@ nav{
 }
 
 .social1:hover {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 .social2:hover {
-    width: 95px;
-    height: 95px;
+    width: 5.9375rem;
+    height: 5.9375rem;
 }
 
 /*RIGHT SIDE OF MAIN*/
@@ -204,10 +204,10 @@ pre {
 
     max-width: 100%;
     max-height: 100%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
 
     transform-style: preserve-3d;
-    transform: perspective(3000px) rotateY(var(--rotateX)) rotateX(var(--rotateY));
+    transform: perspective(187.5rem) rotateY(var(--rotateX)) rotateX(var(--rotateY));
 }
 
 
@@ -285,7 +285,7 @@ pre {
     /* margin: 60px auto; */
     color: white;
     padding: 3%;
-    box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.22);
+    box-shadow: 0 0.875rem 1.75rem rgb(0, 0, 0, 0.25), 0 0.625rem 0.625rem rgb(0, 0, 0, 0.22);
     position: relative;
 }
 
@@ -296,15 +296,14 @@ pre {
     border: 0.063rem solid white;
     border-radius: 0.625rem;
     overflow: hidden;
-    box-shadow: 0 1px 3px rgb(0,0,0,0.12), 0 1px 2px rgb(0, 0,0, 0.24);
+    box-shadow: 0 0.0625rem 0.1875rem rgb(0,0,0,0.12), 0 0 0.0625rem 0.125rem rgb(0, 0,0, 0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     position: relative;
-        /* Relative positioning to establish a stacking context */
     z-index: 0;
 }
 
 .bar:hover{
-    box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25), 0 10px 10px rgb(0, 0, 0, 0.23);
+    box-shadow: 0 0.875rem 1.75rem rgb(0, 0, 0, 0.25), 0 0.625rem 0.625rem rgb(0, 0, 0, 0.23);
 }
 
 .bar span{
@@ -329,8 +328,14 @@ pre {
 
 .mainContainer3{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 110vh;
+}
+
+.exSubMain{
+    display: flex;
+    flex-direction: row;
 }
 
 .leftContainer3,
@@ -341,7 +346,6 @@ pre {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .middleContainer3{
@@ -364,7 +368,7 @@ pre {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .experienceSub{
@@ -377,9 +381,9 @@ pre {
     display: flex;
     flex-direction: column;
     border-radius: 50%;
-    width: 50px;
-    top: 20%;
-    margin: 70px 0;
+    width:3.125rem;
+    top: 0%;
+    margin: 4.375rem 0;
     position: relative;
     z-index: 1;
 }
@@ -389,7 +393,7 @@ pre {
     position: absolute;
     height: 70vh;
     left: 47%;
-    top: 20%;
+    top: 10%;
     bottom: 0;
     width: 5%;
     background: white;
@@ -399,7 +403,7 @@ pre {
 
 p{
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .experienceText{
@@ -414,21 +418,21 @@ p{
     background: linear-gradient(90deg, #f58220, #ff3399);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 10px;
+    margin-bottom:0.625rem ;
 }
 
 .EL {
     background: linear-gradient(90deg, #040A2B, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .TU{
     background: linear-gradient(to right, #A32036, #FFFFFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 
