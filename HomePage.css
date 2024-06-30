@@ -11,7 +11,7 @@ html{
 
 /*Navagation Bar*/
 nav{
-    width: 100%; /*new*/
+    width: 100%;
     overflow-x: hidden;
     background-color: transparent;
     padding: 2%;
@@ -105,7 +105,9 @@ nav{
     /* Welcome Title */
 .title {
     background: linear-gradient(to right, gray, white, gray);
-        -webkit-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /*-webkit-text-fill-color: transparent;*/
     color: transparent;
     font-size: 2.5rem;
 }
@@ -433,21 +435,27 @@ p{
 .DD {
     background: linear-gradient(90deg, #f58220, #ff3399);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /*-webkit-text-fill-color: transparent;*/
+    background-clip: text;
+    color: transparent;
     margin-bottom:0.625rem ;
 }
 
 .EL {
     background: linear-gradient(90deg, #040A2B, #FFFFFF);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    color: transparent;
     margin-bottom: 0.625rem;
 }
 
 .TU{
     background: linear-gradient(to right, #A32036, #FFFFFF);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    color: transparent;
     margin-bottom: 0.625rem;
 }
 
