@@ -539,6 +539,9 @@ p{
         0 0 3.125rem #B87333,
         0 0 6.25rem #B87333;
 }
+.projectOne, .projectTwo, .projectThree{
+    font-size: 2.75rem;
+}
 
 .subProjectImg,
 .subProjectImg-2,
