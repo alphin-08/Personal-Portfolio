@@ -432,8 +432,8 @@ p{
     color: white;
 }
 
-.DD {
-    background: linear-gradient(90deg, #f58220, #ff3399);
+.AF {
+    background: linear-gradient(90deg, #00a33d, #b5e61d);
     -webkit-background-clip: text;
     /*-webkit-text-fill-color: transparent;*/
     background-clip: text;
