@@ -165,14 +165,14 @@
     #experienceSection {
         margin: 0%;
         font-size: 1.25rem;
-        height: 95vh;
+        height: 68vh;
     }
 
     .mainContainer3 {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 95vh;
+        height: auto;
     }
 
     .exSubMain {
@@ -185,6 +185,7 @@
         height: auto;
     }
 
+   
     .experienceTitle{
         font-size: 2rem;
     }
@@ -192,15 +193,26 @@
     .experienceSubTitle {
         font-size: 1rem;
     }
-
+    
     .experienceSub {
         padding: 0%;
         width: 30%;
         background-color: transparent;
     }
+    .experienceSub small{
+        display: none;
+    }
+    .experienceSubTitle{
+        display: none;
+    }
+    
+    .TU,.AF,.EL{
+        font-size: 1rem;
+        margin-bottom: 11rem;
+    }
 
-    .TU,.DD,.EL{
-        font-size: 1.5rem;
+    .experienceText{
+        display: none;
     }
 
     .experienceText{
@@ -208,19 +220,14 @@
     }
     
     .experienceImg {
-        top: -30%;
+        /* top: 0%; */
         border-radius: 50%;
         width: 40px;
-        margin-top: 60%;
     }
 
     .middleContainer3::after {
-        content: "";
-        position: absolute;
-        height: 62vh;
-        left: 47%;
-        top: 8%;
-        width: 3%;
+        height: 27rem;
+        width: .5rem;
     }
     
 /*Project Section*/
@@ -317,14 +324,17 @@
 
     .leftContainer5, .rightContainer5{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
         font-size: 1rem;
+        
     }
 
     .skillImg{
-        width: 10%;
-        height: 60%;
+        width: 8%;
+        height: 40%;
     }
 
     /*Contact Section*/

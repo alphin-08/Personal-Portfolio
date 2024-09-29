@@ -377,12 +377,11 @@ pre {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    /* height: 80%; */
-    height: auto;
+    height:auto;
 }
 
 .experienceTitle{
-    width: 100%;
+    width: 10%;
     display: flex;
     justify-content: flex-start;
 }
