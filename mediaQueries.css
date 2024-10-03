@@ -1,391 +1,107 @@
-
-
-@media all and (max-width:600px) {
-
-    nav {
-        width: 100%;
-        overflow-x: hidden;
-        background-color: transparent;
-        padding: 1%;
-        height: 5vh;
-    }
-    .nav-items {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-    .nav-items a {
-        text-decoration: none;
-        padding: 1%;
-        color: white;
-        font-size: 1rem;
-        border-radius: 1rem;
+@media (max-width:1700px) {
+    .nav-items a{
+        font-size: 1.4rem;
     }
 
-    .particles {
-        width: 100%;
-        height: 35vh;
-        display: hidden;
+    .title{
+        font-size: 2rem;
     }
 
-    .dots {
-        display: flex;
-    }
-
-    .dots span {
-        width: 3rem;
-        height: 3rem;
-        background: white;
-        margin: 0 0.23435rem;
-        border-radius: 50%;
-        box-shadow:
-            0 0 0 0.3125rem black,
-            0 0 0.15625rem white;
-        animation: animate 30s linear infinite;
-        animation-duration: calc(200s/var(--i));
-    }
-
-    @keyframes animate {
-    0% {
-        transform: translateY(100vh) scale(0);
-        }
-
-    100% {
-        transform: translateY(-10vh) scale(.2);
-        }
-    }
-
-    
-    .mainContainer{
-        width: 100%;
-        height:35vh;
-    }
-    
-    .leftContainer{
-        flex: 1;
-        width: 100%;
-        height: 100%;
-    }
-
-    .rightContainer{
-        display: none;
-        width: 0%;
-        height: 0%;
-    }
-    
-    .title {
-        font-size: 20px;
-    }
-
-    .downloadButton {   
-        padding: 1%;
-        border-radius: 1rem;
-        text-decoration: none;
-        width: 100px;
-        height: 20px;
-        font-weight: normal;
+    .downloadButton{
+        width: 6.3rem;
+        height: 1rem;
+        padding: 0.5%;
+        border-radius: 0.5rem;
     }
 
     .social1 {
-        width: 40px;
-        height: 40px;
+        width: 2.2rem;
+        height: 2.2rem;
     }
-        
+
     .social2 {
-        width: 50px;
-        height: 50px;
-    }
-
-    pre {
-        display: none;
-    }
-
-    /*About me Section*/
-    #aboutSection{
-        height: 70vh;
-        font-size: 1.25rem;
-        margin: 0%;
-    }
-
-    .mainContainer2 {
-        display: flex;
-        flex-direction: column;
-        height: 70vh;
+        width: 3.2rem;
+        height: 3.2rem;
     }
     
-    .leftContainer2,
-    .rightContainer2 {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 1rem;
-        text-align: center;
-        height: auto;
-    }
-    
-    .leftContainer2 {
-        order: 1;        
-    }
-    
-    .rightContainer2 {
-        order: 2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-        
-    .aboutmeText {
-        font-size: 1rem;
-        padding: 0.75rem;
-        border: 0.2rem solid white;
-        border-radius: 1.5rem;
-    }
-    
-    .dates {
-        gap: 17rem;
-        font-size: 0.875rem;
+    .pre-container img{
+        width: 80%;
     }
 
-    .captions{
-        gap: 1.5rem;
-        font-size: 0.5rem;
-    }
-    
-    .skill{
-        width: 85%;
-    }
-    .aboutSectionImg {
-        width: 2rem;
-        height: 2rem;
-    }
-                
-
-
-/*Experience Section Resizing*/
-    #experienceSection {
-        margin: 0%;
-        font-size: 1.25rem;
-        height: 68vh;
-    }
-
-    .mainContainer3 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-    }
-
-    .exSubMain {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .leftContainer3,.middleContainer3,.rightContainer3{
-        margin: 0%;
-        height: auto;
-    }
-
-   
-    .experienceTitle{
+    /*About ME*/
+    .aboutmeTitle, .experienceTitle, .projectHeading h1, .skillSectionHeading h1, .middleContainer6 h1{
         font-size: 2rem;
     }
 
-    .experienceSubTitle {
-        font-size: 1rem;
-    }
-    
-    .experienceSub {
-        padding: 0%;
-        width: 30%;
-        background-color: transparent;
-    }
-    .experienceSub small{
-        display: none;
-    }
     .experienceSubTitle{
-        display: none;
-    }
-    
-    .TU,.AF,.EL{
-        font-size: 1rem;
-        margin-bottom: 11rem;
-    }
-
-    .experienceText{
-        display: none;
-    }
-
-    .experienceText{
-        font-size: .75rem;
-    }
-    
-    .experienceImg {
-        /* top: 0%; */
-        border-radius: 50%;
-        width: 40px;
-    }
-
-    .middleContainer3::after {
-        height: 27rem;
-        width: .5rem;
-    }
-    
-/*Project Section*/
-    #projectSection, .mainContainer4{
-        height: 60vh;
-    }
-
-    .projectHeading {
-        width: 100%;
-        height: 10vh;
-        text-align: center;
-    }
-
-    .projectHeading p{
         font-size: 1rem;
     }
-    .projectHeading h1{
+
+    .aboutmeText{
+        font-size: 1.2rem;
+    }
+    .dates p, .captions p{
+     font-size: 1.2rem;
+    }
+    .temple-logo{
+        width: 15%;
+    }
+    .aboutSectionImg{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .leftContainer3 h2, .rightContainer3 h2{
         font-size: 2rem;
     }
 
-    .subMain{
-        height: auto;
-        gap: 5%;
-        width: 100%;
+    .leftContainer3 small,
+    .rightContainer3 small {
+        font-size: 1.2rem;
     }
 
-    .leftContainer4{
-        flex-basis: 25%;
-        border: 0.3125rem solid #A32036;
-        transition: all 1s;
-    }
-
-    .middleContainer4{
-        flex-basis: 25%;
-        border: 0.3125rem solid #040A2B;
-        transition: all 1s;
-    }
-
-    .rightContainer4{
-        flex-basis: 25%;
-        border: 0.3125rem solid #B87333;
-        transition: all 1s;
-    }
-
-    .subMain .leftContainer4, .subMain .middleContainer4, .subMain .rightContainer4{
-        height: 40vh;
-    }
-
-    .leftContainer4 .projectOne, .middleContainer4 .projectTwo, .rightContainer4 .projectThree{
+    .leftContainer3 p,
+    .rightContainer3 p{
         font-size: 1rem;
     }
 
-    .leftContainer4 .projectImg .subProjectImg,
-    .middleContainer4 .projectImg2 .subProjectImg-2,
-    .rightContainer4 .projectImg3 .subProjectImg-3{
-        width: 4rem;
-        height: 4rem;
+    .subMain h2{
+        font-size: 2rem;
     }
 
-
-    .projectBtns, .projectBtns-2, .projectBtns-3{
-        display: flex;
-        flex-direction: column;
+    .leftContainer4, .middleContainer4, .rightContainer4{
+        height: 35rem;
     }
-
-
-    .projectOneBtn, .projectTwoBtn, .projectThreeBtn, .projectOneBtn-2, .projectTwoBtn-2,.projectThreeBtn-2{
-        height: 2rem;
-        width: 5rem;
-        padding: 0rem;
-        border: 0rem;
+    .subMain button{
+        width: 5.5rem;
+        height: 3rem;
         border-radius: 1rem;
-        margin-top: 20%;
-    }
-
-/*Techincal Skills*/
-
-    #skillSection{
-        margin: 0%;
-        height: 50vh;
-    }
-    .mainContainer5{
-        height: 50vh;
-    }
-
-    .skillSectionHeading, .leftContainer5, .rightContainer5{
-        height: 10vh;
-    }
-
-    .skillSectionHeading{
-        font-size: 1.5rem;
-        margin: 0%;
     }
 
     .leftContainer5, .rightContainer5{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 1rem;
-        
+        font-size: 1.2rem;
     }
-
     .skillImg{
-        width: 8%;
-        height: 40%;
-    }
-
-    /*Contact Section*/
-    #contactSection{
-        margin: 0%;
-        padding: 0%;
-        height: 50vh;
-        width: 100%;
-    }
-    .mainContainer6{
-        margin: 0%;
-        padding: 0%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        width: 100%;
-        height: 50vh;
-    }
-    .middleContainer6 {
-        width: 70%;
-        height: 50vh;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 3.5rem;
+        width: 3.5rem;
     }
 
     .emailBox{
-        width: 80%;
-        height: 16vh;
+        margin: 2rem auto;
+        width: 24rem;
+    }
+    .emailBox a{
+        font-size: 1.2rem;
     }
 
-    .email-info{
-        display: flex;
-        flex-direction: column;
-        gap: 2%;
-        height: 10vh;
+    .social-icon {
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
-    .email-info p{
-        font-size: 18px;
-        margin: 0%;
+    .social-icon2 {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 3%;
     }
-    .social-icon{
-        width: 2.75rem;
-        height: 3rem;
-    }
-    .social-icon2{
-        width:  1.5rem;
-        height: 2rem;
-    }
-}       
-
+}
