@@ -226,3 +226,284 @@
     }
 }
 
+@media (max-width:950px){
+    .nav-items a {
+            font-size: 1rem;
+        }
+
+    .aboutmeTitle,
+    .experienceTitle,
+    .projectHeading h1,
+    .skillSectionHeading h1,
+    .middleContainer6 h1 {
+        font-size: rem;
+    }
+
+    .experienceSubTitle {
+        font-size: 1rem;
+    }
+
+    .aboutmeText {
+        font-size: 1rem;
+    }
+    
+    .mainContainer2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dates p,
+    .captions p {
+        font-size: 1.2rem;
+    }
+
+    .temple-logo {
+        width: 20%;
+    }
+
+    .aboutSectionImg {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .leftContainer3 h2,
+    .rightContainer3 h2 {
+        font-size: 1.5rem;
+    }
+
+    .leftContainer3 small,
+    .rightContainer3 small {
+        font-size: 1rem;
+    }
+
+    .leftContainer3 p,
+    .rightContainer3 p {
+        font-size: 0.8rem;
+    }
+
+    .subMain h2 {
+        font-size: 1.5rem;
+    }
+
+    .leftContainer4,
+    .middleContainer4,
+    .rightContainer4 {
+        height: 30rem;
+    }
+
+    .subMain button {
+        width: 5.5rem;
+        height: 2.5rem;
+        border-radius: 1rem;
+    }
+
+    .leftContainer5,
+    .rightContainer5 {
+        font-size: 1rem;
+    }
+
+    .skillImg {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .emailBox {
+        margin: 2rem auto;
+        width: 20rem;
+    }
+
+    .emailBox a {
+        font-size: 1rem;
+    }
+
+    .social-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .social-icon2 {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width:740px) {
+    .aboutmeText{
+        line-height: 2;
+        letter-spacing: 0.05em;
+    }
+    .leftContainer3 p, .rightContainer3 p {
+        font-size: 0.7rem;
+        line-height: 2;
+        letter-spacing: 0.10em;
+    }
+
+    .leftContainer4,.middleContainer4 {
+            flex: 0 0 60%;
+            height: 40vh;
+        }
+    .rightContainer4{
+        flex: 0 0 60%;
+        height: 40vh;
+    }
+
+    .leftContainer5,
+    .rightContainer5 {
+        font-size: 0.8rem;
+    }
+
+    .skillImg {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .emailBox {
+        margin: 2rem auto;
+        width: 13rem;
+        height: 8rem;
+        
+    }
+
+    .emailBox a {
+        font-size: 1rem;
+    }
+    .email-info{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .email-info p{
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .social-icon {
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 0%;
+    }
+
+    .social-icon2 {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin-bottom: 0%;
+    }
+
+}
+
+@media (max-width:600px){
+    .nav-items a {
+        font-size: 0.7rem;
+    }
+    .title{
+        font-size: 1.5rem;
+    }
+    
+        .aboutmeTitle,
+        .experienceTitle,
+        .projectHeading h1,
+        .skillSectionHeading h1,
+        .middleContainer6 h1 {
+            font-size: 1.5rem;
+        }
+    
+        .experienceSubTitle {
+            font-size: 0.7rem;
+        }
+    
+        .aboutmeText {
+            font-size: 0.7rem;
+        }
+    
+        .mainContainer2 {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .dates p,
+        .captions p {
+            font-size: 0.7rem;
+        }
+    
+        .aboutSectionImg {
+            width: 4rem;
+            height: 4rem;
+        }
+    
+        .leftContainer3 h2,
+        .rightContainer3 h2 {
+            font-size: 1.2rem;
+        }
+    
+        .leftContainer3 small,
+        .rightContainer3 small {
+            font-size: 0.7rem;
+        }
+    
+        .leftContainer3 p,
+        .rightContainer3 p {
+            font-size: 0.7rem;
+        }
+    
+        .subMain h2 {
+            font-size: 1.5rem;
+        }
+    
+        .leftContainer4,
+        .middleContainer4,
+        .rightContainer4 {
+            height: 25rem;
+        }
+    
+        .subMain button {
+            width: 5.5rem;
+            height: 2rem;
+            border-radius: 1rem;
+        }
+    
+        .leftContainer5,
+        .rightContainer5 {
+            font-size: 0.8rem;
+        }
+    
+        .skillImg {
+            height: 2rem;
+            width: 2rem;
+        }
+    
+        .emailBox {
+            margin: 2rem auto;
+            width: 10rem;
+            height: 8rem;
+        }
+
+        .emailBox a {
+            font-size: 0.9rem;
+        }
+
+        .email-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .email-info p {
+            margin-bottom: 0%;
+            margin-top: 0%;
+        }
+
+        .social-icon {
+            width: 1.6rem;
+            height: 1.6rem;
+            margin-bottom: 0%;
+        }
+
+        .social-icon2 {
+            width: 1rem;
+            height: 1rem;
+            margin-bottom: 0%;
+        }
+}
+
