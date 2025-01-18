@@ -94,7 +94,7 @@
         font-size: 1.2rem;
     }
 
-    .social-icon {
+    /* .social-icon {
         width: 2.5rem;
         height: 2.5rem;
     }
@@ -103,7 +103,7 @@
         width: 1.5rem;
         height: 1.5rem;
         margin-bottom: 3%;
-    }
+    } */
 }
 
 @media (max-width:1450px) {
@@ -214,7 +214,7 @@
         font-size: 1rem;
     }
 
-    .social-icon {
+    /* .social-icon {
         width: 2rem;
         height: 2rem;
     }
@@ -223,7 +223,7 @@
         width: 1.2rem;
         height: 1.2rem;
         margin-bottom: 3%;
-    }
+    } */
 }
 
 @media (max-width:950px){
@@ -316,7 +316,7 @@
         font-size: 1rem;
     }
 
-    .social-icon {
+    /* .social-icon {
         width: 2.5rem;
         height: 2.5rem;
     }
@@ -325,6 +325,9 @@
         width: 1.5rem;
         height: 1.5rem;
         margin-bottom: 3%;
+    } */
+    .contactText {
+        font-size: 1rem;
     }
 }
 
@@ -379,7 +382,7 @@
         margin-top: 0%;
     }
 
-    .social-icon {
+    /* .social-icon {
         width: 2rem;
         height: 2rem;
         margin-bottom: 0%;
@@ -389,8 +392,11 @@
         width: 1.2rem;
         height: 1.2rem;
         margin-bottom: 0%;
-    }
+    } */
 
+    .contactText {
+        font-size: 1rem;
+    }
 }
 
 @media (max-width:600px){
@@ -401,175 +407,71 @@
         font-size: 1.5rem;
     }
     
-        .aboutmeTitle,
-        .experienceTitle,
-        .projectHeading h1,
-        .skillSectionHeading h1,
-        .middleContainer6 h1 {
-            font-size: 1.5rem;
-        }
-    
-        .experienceSubTitle {
-            font-size: 0.7rem;
-        }
-    
-        .aboutmeText {
-            font-size: 0.7rem;
-        }
-    
-        .mainContainer2 {
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .dates p,
-        .captions p {
-            font-size: 0.7rem;
-        }
-    
-        .aboutSectionImg {
-            width: 4rem;
-            height: 4rem;
-        }
-    
-        .leftContainer3 h2,
-        .rightContainer3 h2 {
-            font-size: 1.2rem;
-        }
-    
-        .leftContainer3 small,
-        .rightContainer3 small {
-            font-size: 0.7rem;
-        }
-    
-        .leftContainer3 p,
-        .rightContainer3 p {
-            font-size: 0.7rem;
-        }
-    
-        .subMain h2 {
-            font-size: 1.5rem;
-        }
-    
-        .leftContainer4,
-        .middleContainer4,
-        .rightContainer4 {
-            height: 25rem;
-        }
-    
-        .subMain button {
-            width: 5.5rem;
-            height: 2rem;
-            border-radius: 1rem;
-        }
-    
-        .leftContainer5,
-        .rightContainer5 {
-            font-size: 0.8rem;
-        }
-    
-        .skillImg {
-            height: 2rem;
-            width: 2rem;
-        }
-    
-        .emailBox {
-            margin: 2rem auto;
-            width: 10rem;
-            height: 8rem;
-        }
-
-        .emailBox a {
-            font-size: 0.9rem;
-        }
-
-        .email-info {
-            display: flex;
-            flex-direction: column;
-            gap: 0.5rem;
-        }
-
-        .email-info p {
-            margin-bottom: 0%;
-            margin-top: 0%;
-        }
-
-        .social-icon {
-            width: 1.6rem;
-            height: 1.6rem;
-            margin-bottom: 0%;
-        }
-
-        .social-icon2 {
-            width: 1rem;
-            height: 1rem;
-            margin-bottom: 0%;
-        }
-}
-
-@media (max-width:400px) {
-    .nav-items a {
-        font-size: 0.7rem;
-    }
-
-    .title {
-        font-size: 1rem;
-    }
-    .bottomTitle {
-        position: relative;
-        left: -2rem;
+    .aboutmeTitle,
+    .experienceTitle,
+    .projectHeading h1,
+    .skillSectionHeading h1,
+    .middleContainer6 h1 {
+        font-size: 1.5rem;
     }
 
     .experienceSubTitle {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
-    .leftContainer3, .rightContainer3{
+    .aboutmeText {
+        font-size: 0.7rem;
+    }
+
+    .mainContainer2 {
         display: flex;
         flex-direction: column;
     }
+
+    .dates p,
+    .captions p {
+        font-size: 0.7rem;
+    }
+
+    .aboutSectionImg {
+        width: 4rem;
+        height: 4rem;
+    }
+
     .leftContainer3 h2,
     .rightContainer3 h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .leftContainer3 small,
     .rightContainer3 small {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .leftContainer3 p,
     .rightContainer3 p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .subMain h2 {
-        font-size: 1rem;
-    }
-
-    .subProjectImg,
-    .subProjectImg-2,
-    .subProjectImg-3 {
-        width: 7rem;
-        height: 7rem;
-        display: none;
+        font-size: 1.5rem;
     }
 
     .leftContainer4,
     .middleContainer4,
     .rightContainer4 {
-        height: 20rem;
+        height: 25rem;
     }
 
     .subMain button {
         width: 5.5rem;
         height: 2rem;
-        border-radius: 2rem;
+        border-radius: 1rem;
     }
 
     .leftContainer5,
     .rightContainer5 {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .skillImg {
@@ -598,9 +500,9 @@
         margin-top: 0%;
     }
 
-    .social-icon {
-        width: 1.5rem;
-        height: 1.5rem;
+    /* .social-icon {
+        width: 1.6rem;
+        height: 1.6rem;
         margin-bottom: 0%;
     }
 
@@ -608,6 +510,109 @@
         width: 1rem;
         height: 1rem;
         margin-bottom: 0%;
+    } */
+
+    .contactText {
+        font-size: 0.5rem;
     }
+    
 }
 
+@media (max-width: 400px) {
+    .nav-items a {
+        font-size: 0.65rem;
+    }
+
+    .title {
+        font-size: 0.9rem;
+    }
+
+    .bottomTitle {
+        position: relative;
+        left: -1rem;
+    }
+
+    .experienceSubTitle {
+        font-size: 0.55rem;
+    }
+
+    .leftContainer3,
+    .rightContainer3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftContainer3 h2,
+    .rightContainer3 h2 {
+        font-size: 1.3rem;
+    }
+
+    .leftContainer3 small,
+    .rightContainer3 small {
+        font-size: 0.9rem;
+    }
+
+    .leftContainer3 p,
+    .rightContainer3 p {
+        font-size: 0.75rem;
+    }
+
+    .subMain h2 {
+        font-size: 0.9rem;
+    }
+
+    .subProjectImg,
+    .subProjectImg-2,
+    .subProjectImg-3 {
+        width: 6rem;
+        height: 6rem;
+        display: none;
+    }
+
+    .leftContainer4,
+    .middleContainer4,
+    .rightContainer4 {
+        height: 18rem;
+    }
+
+    .subMain button {
+        width: 5rem;
+        height: 1.8rem;
+        border-radius: 1.8rem;
+    }
+
+    .leftContainer5,
+    .rightContainer5 {
+        font-size: 0.55rem;
+    }
+
+    .skillImg {
+        height: 1.8rem;
+        width: 1.8rem;
+    }
+
+    .emailBox {
+        margin: 1.5rem auto;
+        width: 9rem;
+        height: 7rem;
+    }
+
+    .emailBox a {
+        font-size: 0.75rem;
+    }
+
+    .email-info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .email-info p {
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+
+    .contactText {
+        font-size: 0.65rem;
+    }
+}

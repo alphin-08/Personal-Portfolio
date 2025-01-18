@@ -149,7 +149,7 @@ nav{
 }
 
     /*Home Page Buttons*/
-.downloadButton {
+/* .downloadButton {
     background-color: white;
     color: black;
     padding: 1%;
@@ -162,7 +162,7 @@ nav{
 .downloadButton:hover {
     background-color: gray;
 
-}
+} */
 
 /*RIGHT SIDE OF MAIN*/
 .rightContainer{
@@ -654,7 +654,7 @@ p{
     justify-content: center;
     gap:1rem;
     margin: 1rem 0;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .email-info a {
@@ -662,7 +662,7 @@ p{
     text-decoration: none;
 }
 
-.social-icon{
+/* .social-icon{
     width: 3.125rem;
     height: 3.125rem;
 }
@@ -671,4 +671,8 @@ p{
     width: 2rem;
     height: 2rem;
     margin-bottom: 3%;
+} */
+
+.contactText{
+    font-size: 1.25rem;
 }
