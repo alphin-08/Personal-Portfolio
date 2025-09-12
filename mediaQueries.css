@@ -104,6 +104,19 @@
         height: 1.5rem;
         margin-bottom: 3%;
     } */
+
+    .mainContainerCert {
+        padding: 1.5rem 1rem !important;
+        min-width: 250px !important;
+    }
+
+    .mainContainerCert h1 {
+        font-size: 2rem !important;
+    }
+
+    .mainContainerCert img {
+        width: 45px !important;
+    }
 }
 
 @media (max-width:1450px) {
@@ -112,6 +125,28 @@
     }
     .subMain h2 {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width:1300px) {
+    .title {
+            font-size: 1.5rem !important;
+        }
+    
+    .github-logo, .linkedin-logo {
+        transform: none !important;
+        transition: none !important;
+        pointer-events: auto;
+    }
+
+    .github-logo {
+        height: 8rem !important;
+        width: 8rem !important;
+    }
+
+    .linkedin-logo {
+        height: 5.5rem !important;
+        width: 5.5rem !important;
     }
 }
 
@@ -135,11 +170,29 @@
         width: 2.3rem;
         height: 2.3rem;
     }
+
+    .mainContainerCert {
+        padding: 1rem 0.5rem !important;
+        min-width: 180px !important;
+    }
+
+    .mainContainerCert h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .mainContainerCert img {
+        width: 35px !important;
+    }
+
+    .mainContainerCert ul {
+        font-size: 1rem !important;
+    }
 }
 
 @media (max-width:1080px){
-    .pre-container img{
-        display: none;
+    .linkedin-logo {
+        height: 5.5rem !important;
+        width: 5.5rem !important;
     }
 
     .mainContainer {
@@ -154,8 +207,16 @@
         text-align: center;
     }
     .rightContainer{
-        display: none;
+        width: 100%;
+        margin-bottom: 20px;
+        display: block;
+        text-align: center;
     }
+
+    .mainContainerCert {
+        margin: 0 auto;
+    }
+
     .bottomTitle{
         position: relative;
         left: -3.75rem;
@@ -329,6 +390,23 @@
     .contactText {
         font-size: 1rem;
     }
+
+    .mainContainerCert {
+        padding: 0.7rem 0.3rem !important;
+        min-width: 120px !important;
+    }
+
+    .mainContainerCert h1 {
+        font-size: 1.2rem !important;
+    }
+
+    .mainContainerCert img {
+        width: 28px !important;
+    }
+
+    .mainContainerCert ul {
+        font-size: 0.9rem !important;
+    }
 }
 
 @media (max-width:740px) {
@@ -400,6 +478,26 @@
 }
 
 @media (max-width:600px){
+    .title {
+            font-size: 1rem !important;
+        }
+    
+    .github-logo,
+    .linkedin-logo {
+        transform: none !important;
+        transition: none !important;
+        pointer-events: auto;
+    }
+
+    .github-logo {
+        height: 5rem !important;
+        width: 5rem !important;
+    }
+
+    .linkedin-logo {
+        height: 3.5rem !important;
+        width: 3.5rem !important;
+    }
     .nav-items a {
         font-size: 0.7rem;
     }
@@ -515,6 +613,29 @@
     .contactText {
         font-size: 0.5rem;
     }
+
+    .mainContainerCert {
+        padding: 0.5rem 0.1rem !important;
+        min-width: 80px !important;
+    }
+
+    .mainContainerCert h1 {
+        font-size: 1rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+
+    .mainContainerCert img {
+        width: 20px !important;
+        margin-right: 0.3rem !important;
+    }
+
+    .mainContainerCert ul {
+        font-size: 0.7rem !important;
+    }
+
+    .mainContainerCert>div {
+        padding: 0.5rem !important;
+    }
     
 }
 
@@ -614,5 +735,33 @@
 
     .contactText {
         font-size: 0.65rem;
+    }
+
+    .projectButtonContainer {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 0.4rem !important;
+        width: 100% !important;
+    }
+
+    .projectBtns, .projectBtns-2, .projectBtns-3 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 0.4rem !important;
+        width: 100% !important;
+    }
+    .projectSectionButton,
+    .projectSectionButton2,
+    .projectOneBtn-2,
+    .projectTwoBtn-2,
+    .projectThreeBtn-2, .projectOneBtn, .projectTwoBtn, .projectThreeBtn {
+        width: 3rem !important;
+        height: 1.2rem !important;
+        font-size: 0.8rem !important;
+        padding: 0.2rem !important;
+        border-radius: 0.6rem !important;
+        margin: 0 !important;
     }
 }
